@@ -1,17 +1,19 @@
-# Fresh project
+# Kitchen Day
 
-Your new Fresh project is ready to go. You can follow the Fresh "Getting
-Started" guide here: https://fresh.deno.dev/docs/getting-started
+Daily kitchen-duty rotation app built with Fresh 2.
 
-### Usage
+## Usage
 
-Make sure to install Deno:
-https://docs.deno.com/runtime/getting_started/installation
+1. Start dev server:
 
-Then start the project in development mode:
-
-```
+```sh
 deno task dev
 ```
 
-This will watch the project directory and restart as necessary.
+2. Open a comma-separated user list in the path:
+
+```text
+http://localhost:8000/user1,user2,user3,user4
+```
+
+The center shows today's assignee and the queue below shows upcoming days.
